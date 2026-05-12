@@ -40,6 +40,41 @@ Interfaces
 @Override
 
 Validación de montos
+# Ejercicio 3
+Sistema de Roles Empresariales
+Descripción
+
+En este proyecto se desarrolló un sistema empresarial en Java utilizando varias interfaces para diferenciar responsabilidades según el rol del usuario.
+
+Se crearon las interfaces:
+
+Autenticable
+
+Reportable
+
+Gestionable
+
+Y las clases:
+
+Cajero
+
+Administrador
+
+Supervisor
+
+Cada clase implementa diferentes interfaces dependiendo de sus permisos:
+
+El cajero puede iniciar sesión y gestionar datos.
+El administrador puede iniciar sesión, gestionar datos y generar reportes.
+El supervisor puede iniciar sesión y generar reportes.
+
+También se aplicó:
+
+Interfaces múltiples
+@Override
+Validación de usuario y clave
+Menú interactivo
+Clases y objetos
 
 Clases y objetos
 
