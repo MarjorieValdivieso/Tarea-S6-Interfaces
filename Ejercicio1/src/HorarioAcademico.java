@@ -1,4 +1,3 @@
-import javax.swing.plaf.PanelUI;
 
 public class HorarioAcademico implements Imprimible{
    private String periodoAcademico;

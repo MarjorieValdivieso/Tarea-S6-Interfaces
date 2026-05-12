@@ -1,3 +1,4 @@
+
 interface Imprimible {
     void imprimir();
 }
