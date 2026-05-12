@@ -6,7 +6,6 @@ public class ActaNotas implements Imprimible {
     public ActaNotas(String carrera) {
         this.carrera = carrera;
     }
-
     @Override
     public void imprimir() {
         System.out.println("Imprimiendo acta de notas.");
