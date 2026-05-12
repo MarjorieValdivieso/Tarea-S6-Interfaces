@@ -1,2 +1,3 @@
-public class Gestionable {
+public interface Gestionable {
+    void gestionarDatos();
 }
