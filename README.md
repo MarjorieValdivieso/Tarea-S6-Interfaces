@@ -25,14 +25,24 @@ Sistema Bancario de Pagos
 Descripción
 En este proyecto se desarrolló un sistema bancario en Java utilizando una interfaz llamada Pagable.
 Se crearon las clases:
+
 -PagoEfectivo
+
 -PagoTarjeta
+
 -Transferencia
+
 Cada clase implementa el método procesarPago() mostrando mensajes diferentes según el tipo de pago.
 También se aplicó:
+
 Interfaces
+
 @Override
+
 Validación de montos
+
 Clases y objetos
+
 Comisión para tarjeta y transferencia
+
 Finalmente, se creó la clase Main para ejecutar y probar el sistema.
