@@ -1,12 +1,13 @@
-public class PagoEfectivo implements Pagable{
-    @Override
-    public void procesarEfectivo(double monto){
-        if (monto>0){
-            System.out.println("Pago efectivo realizado");
-            System.out.println("Monto $"+monto);
+public class PagoEfectivo implements Pagable {
 
-        }else{
-            System.out.println("El monto debe ser mayor a cero");
+    @Override
+    public void procesarPago(double monto) {
+
+        if (monto > 0) {
+            System.out.println("Pago en efectivo realizado.");
+            System.out.println("Monto: $" + monto);
+        } else {
+            System.out.println("El monto debe ser mayor a cero.");
         }
     }
 }
